@@ -3,7 +3,12 @@
 Bu proje, Internet Computer Protocol (ICP) üzerinde Motoko programlama dilini kullanarak oluşturulmuş basit bir yapılacaklar listesi akıllı sözleşmesidir. Kullanıcılar, yapılacakları isimlerine göre eklemeler yapabilir, tamamlamalarını işaretleyebilir ve listeden silebilirler.
 
 ## Proje Yapısı
-Bu proje, Motoko'nun tip sistemini ve HashMap, Hash, Nat, Iter ve Text modüllerini kullanarak işlevsel bir yapılacaklar listesi uygulaması oluşturur.
+
+Bu projede, `Map`, `Hash`, `Nat`, `Iter` ve `Text` modüllerini kullanarak işlevsel bir yapılacaklar listesi uygulaması oluşturulmuştur.
+
+## Tanımlanan Veri Tipi
+
+`ToDo`: Bir yapılacak görevin tanımlanması için kullanılmıştır. Bu veri tipi, bir görevin açıklamasını ve tamamlanma durumunu içerir.
 
 ## Kullanılan Modüller ve Fonksiyonlar
 
@@ -14,6 +19,7 @@ Bu proje, Motoko'nun tip sistemini ve HashMap, Hash, Nat, Iter ve Text modüller
 - **Text Modülü:** Metin verileriyle çalışmak için kullanılır.
 
 ## Akıllı Sözleşme İşlevleri
+
 - **getTodos():** Tüm yapılacak görevlerin listesini almak için kullanılır.
 - **addTodo(description):** Yeni bir yapılacak görev eklemek için kullanılır.
 - **completeTodo(id):** Belirli bir yapılacak görevi tamamlanmış olarak işaretlemek için kullanılır.
@@ -21,10 +27,11 @@ Bu proje, Motoko'nun tip sistemini ve HashMap, Hash, Nat, Iter ve Text modüller
 - **clearCompleted():** Tamamlanmış olan tüm görevleri temizlemek için kullanılır.
 
 ## Nasıl Kullanılır?
-1. Akıllı sözleşmeyi başlatmak için gerekli olan modülleri içe aktarın.
 
+1. Akıllı sözleşmeyi başlatmak için gerekli olan modülleri içe aktarın.
 2. Yapılacaklar listesi için bir HashMap oluşturun.
 3. İstenirse yapılacak görevleri ekleyin, işaretleyin veya temizleyin.
 
 ## Katkı
+
 Motoko Akıllı Sözleşme Yapılacaklar Listesi projesine katkıda bulunmak isterseniz, bu depoyu çatallayabilir, değişikliklerinizi yapabilir ve bir pull request gönderebilirsiniz.
