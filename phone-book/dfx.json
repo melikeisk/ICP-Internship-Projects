@@ -1,7 +1,7 @@
 {
   "canisters": {
-    "todo_backend": {
-      "main": "src/todo_backend/todo.mo",
+    "phone-book_backend": {
+      "main": "src/phone-book_backend/phonebook.mo",
       "type": "motoko"
     }
   },
