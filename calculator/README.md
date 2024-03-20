@@ -1,4 +1,4 @@
-# Colculator
+# Calculator
 
 Bu akıllı sözleşme, temel hesap makinesi işlevlerini gerçekleştiren bir aktördür. Toplama, çıkarma, çarpma, bölme ve temizleme gibi işlemleri destekler.
 
