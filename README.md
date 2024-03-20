@@ -6,7 +6,7 @@ Bu repo, Internet Computer Internship Bootcamp sürecinde tasarlanmış çeşitl
 
 1. **Hesap Makinesi Akıllı Sözleşmesi**
    - Açıklama: Bu proje, temel hesap makinesi işlevlerini gerçekleştiren bir akıllı sözleşmedir.
-   - Dosya: `colculator.mo`
+   - Dosya: `calculator.mo`
    - [README dosyası](./calculator/README.md)
 
 2. **ToDo Akıllı Sözleşmesi**
