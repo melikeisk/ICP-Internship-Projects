@@ -24,6 +24,17 @@ Bu repo, Internet Computer Internship Bootcamp sürecinde tasarlanmış çeşitl
    - Dosya: `superheroes.mo`
    - [README dosyası](./motoko-superhero/README.md)
 
+5. **Token**
+   - Açıklama: Bu akıllı sözleşme, Icrc1Ledger canister'ına token transferi yapar.
+   - Dosya: `token.mo`
+   - [README dosyası](./token/README.md)
+
+6. **Basic DAO Akıllı Sözleşmesi**
+   - Açıklama: Merkezi Olmayan Özerk Organizasyon (DAO) işlevselliğini sağlayan bir akıllı sözleşme.
+   - Dosya: `main.mo`
+   - [README dosyası](./basic_dao/README.md)
+
+
 ## Nasıl Kullanılır?
 
 Her bir proje için, ilgili README dosyasına giderek proje hakkında bilgi alabilir ve nasıl kullanılacağına dair adımları görebilirsiniz.
